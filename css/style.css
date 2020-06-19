@@ -237,6 +237,9 @@ h3 {color: rgb(235, 74, 74);}
     .intro-text {
         text-align : center;
     }
+    .intro-text h1 {
+        font-size: 18px;
+    }
     .intro-img {
       width: 50%;
       margin: 10px auto;
