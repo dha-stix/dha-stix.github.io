@@ -91,7 +91,7 @@ select {
     justify-content: center;
     align-items: center;
     width: 70%;
-    margin: 60px;
+    margin: 30px;
 }
 .goto, .close {
     margin-top: 25px;
