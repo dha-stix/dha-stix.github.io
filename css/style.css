@@ -21,18 +21,6 @@ main {
     background-color: #393e46;
     padding: 20px;
     border-radius: 25px 10px;
-    position: relative;
-    animation-name: main;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-@keyframes main {
-    0% {
-        left: -1000px;
-    }
-    100% {
-        left: 0px;
-    }
 }
 main h1  {
    margin-bottom: 15px;
@@ -104,19 +92,6 @@ select {
     align-items: center;
     width: 70%;
     margin: 60px;
-    animation-name: modal;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;  
-    position: relative; 
-}
-
-@keyframes modal {
-    0% {
-        top: -500px;
-    }
-    100% {
-        top: 0px;
-    }
 }
 .goto, .close {
     margin-top: 25px;
