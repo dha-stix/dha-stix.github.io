@@ -23,7 +23,8 @@ main {
     border-radius: 25px 10px;
     position: relative;
     animation-name: main;
-    animation-duration: 4s;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 @keyframes main {
@@ -105,7 +106,7 @@ select {
     width: 70%;
     margin: 60px;
     animation-name: modal;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;  
     position: relative; 
 }
@@ -143,19 +144,9 @@ select {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     display: none; 
-    animation-name: result;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;  
-    position: relative;
+    
 }
-@keyframes result {
-    0% {
-        top: -1000px;
-    }
-    100% {
-        top: 0px;
-    }
-}
+
 .active {
     display: flex; 
     align-items: center;
