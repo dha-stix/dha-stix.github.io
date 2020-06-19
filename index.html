@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/horo-removebg-preview.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Horoscope | David Asaolu</title>
+</head>
+<body>
+                                            <!-- MAIN / FORM PAGE -->
+    <main>
+        <img src="./images/horo-removebg-preview.png" alt="My Horoscope App" class="img">
+        <h1>Horoscope</h1>
+        <h3>Know your Zodiac sign</h3>
+        <form>
+          <label for="date">Choose your Birth Date: </label>
+          <select name="date" id="date">
+              <option value="Aries">March 21 - April 19</option>
+              <option value="Taurus">April 20 - May 20</option>
+              <option value="Gemini">May 21 - June 20</option>
+              <option value="Cancer">June 21 - July 22</option>
+              <option value="Leo">July 23 - August 22</option>
+              <option value="Virgo">August 23 - September 22 </option>
+              <option value="Libra">September 23 - October 22</option>
+              <option value="Scorpio">October 23 - November 21</option>
+              <option value="Sagittarius">November 22 - December 21</option>
+              <option value="Capricorn">December 22 - January 19</option>
+              <option value="Aquarius">January 20 - February 18</option>
+              <option value="Pisces">February 19 - March 20</option>
+          </select>
+        <button id="submit">SUBMIT</button>
+        </form>
+    </main>
+                                            <!-- END OF MAIN / FORM PAGE -->
+
+                                                <!-- LANDING PAGE -->
+    <div class="open">
+        <div class="open-modal">
+                <img src="./images/horo-removebg-preview.png" alt="My Horoscope App" class="intro-img">
+            <div class="intro-text">
+                <h1> Welcome to my Horoscope App</h1>
+                <h4>Know your Zodiac sign and learn more about yourself, your weaknesses and strengths.
+                </h4>
+                <button class="goto">START</button>
+            </div> 
+        </div>
+        <div class="closing">
+            This app was built with HTML, CSS and Vanilla Javascript
+        </div>
+    </div>
+                                            <!-- END OF LANDING PAGE -->
+
+                                             <!-- RESULTS PAGE      -->
+
+    <div class="results-div">
+        <div class="result aquarius">
+            <div class="about-image">
+                <img src="./images/Aquarius.png" alt=" About Aquarius">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Aquarius) </h2>
+                <p> 
+                    Despite the “aqua” in its name, Aquarius is actually the last air sign of the zodiac. 
+                    Aquarius is represented by the water bearer, the mystical healer who bestows water, or life, upon the land. 
+                    Accordingly, Aquarius is the most humanitarian astrological sign.
+                </p>
+                </div>
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Intelligent</li>
+                            <li>Inventive</li>
+                            <li>Humanistic</li>
+                            <li>Friendly</li>
+                            <li>Altruistic</li>
+                            <li>Reformative</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Impersonal</li>
+                            <li>Emotionally Detached</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <div class="result aries">
+            <div class="about-image">
+                <img src="./images/Aries.png" alt=" About Aries">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Aries) </h2>
+                <p> 
+                    Aries loves to be number one, so it’s no surprise that these audacious rams are the first sign of the zodiac. 
+                    Bold and ambitious, Aries dives headfirst into even the most challenging situations. 
+                </p>
+                </div>
+
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Brave</li>
+                            <li>Direct</li>
+                            <li>Fearless</li>
+                            <li>Independent</li>
+                            <li>Deep Sense of Justice</li>
+                            <li>Natural Leader</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Aggressive</li>
+                            <li>Inconsistent</li>
+                            <li>Bad-tempered</li>
+                            <li>Pushy</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result cancer">
+            <div class="about-image">
+                <img src="./images/Cancer.png" alt=" About Cancer">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Cancer) </h2>
+                <p> 
+                    Cancer is a cardinal water sign. Represented by the crab, this crustacean seamlessly weaves 
+                    between the sea and shore representing Cancer’s ability to exist in both emotional and material 
+                    realms. Cancers are highly intuitive and their psychic abilities manifest in tangible spaces: 
+                    For instance, Cancers can effortlessly pick up the energies in a room. 
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                           <li>Nurturing</li>
+                           <li>Supportive</li>
+                           <li>Healing</li>
+                           <li>Compassionate</li>
+                           <li>Unconditionally Loving</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Moody</li>
+                            <li>Passive Aggressive</li>
+                            <li>Unable to Let Go</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result capricorn">
+            <div class="about-image">
+                <img src="./images/Capricorn.png" alt=" About Capricorn">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Capricorn) </h2>
+                <p> 
+                    The last earth sign of the zodiac, Capricorn is represented by the sea goat, 
+                    a mythological creature with the body of a goat and tail of a fish. 
+                    Accordingly, Capricorns are skilled at navigating both the material and emotional realms.
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                           <li>Driven</li>
+                           <li>Patient</li>
+                           <li>Strategic</li>
+                           <li>Determined</li>
+                           <li>Disciplined</li>
+                           <li>Responsible</li>
+                           <li>Persistent</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                           <li>Cynical</li>
+                           <li>Ruthless</li>
+                           <li>Fearful</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result gemini">
+            <div class="about-image">
+                <img src="./images/Gemini.png" alt=" About Gemini">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Gemini) </h2>
+                <p> 
+                    Have you ever been so busy that you wished you could clone yourself just to get everything done? 
+                    That’s the Gemini experience in a nutshell. Appropriately symbolized by the celestial twins,
+                    this air sign was interested in so many pursuits that it had to double itself. 
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Intelligent</li>
+                           <li>Adaptable</li>
+                           <li>Agile</li>
+                           <li>Communicative</li>
+                           <li>Informative</li>
+                           <li>Connected</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Talkative</li>
+                            <li>Deceptive</li>
+                            <li>Cunning</li>
+                            <li>Inconsistent</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result leo">
+            <div class="about-image">
+                <img src="./images/Leo.png" alt=" About Leo">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Leo) </h2>
+                <p> 
+                    Roll out the red carpet because Leo has arrived. Leo is represented by the lion and 
+                    these spirited fire signs are the kings and queens of the celestial jungle. 
+                    They’re delighted to embrace their royal status: 
+                    Vivacious, theatrical, and passionate, Leos love to bask in the spotlight and celebrate themselves.
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Brave</li>
+                            <li>Playful</li>
+                            <li>Leader</li>
+                            <li>Fun</li>
+                            <li>Warm</li>
+                            <li>Protective</li>
+                            <li>Generous</li>
+                            <li>Charismatic</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Egotistical</li>
+                            <li>Dominating</li>
+                            <li>Controlling</li>
+                            <li>Stubborn</li>
+                            <li>A Show-off</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result libra">
+            <div class="about-image">
+                <img src="./images/Libra.png" alt=" About Libra">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Libra) </h2>
+                <p> 
+                    Libra is an air sign represented by the scales (interestingly, the only inanimate object of the zodiac), 
+                    an association that reflects Libra's fixation on balance and harmony. 
+                    Libra is obsessed with symmetry and strives to create equilibrium in all areas of life. 
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Charming</li>
+                            <li>Harmonious</li>
+                            <li>Easy-going</li>
+                            <li>Diplomatic</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Gullible</li>
+                            <li>Superficial</li>
+                            <li>Indecisive</li>
+                            <li>Hypocritical</li>
+                            <li>Aggressive</li>
+                            <li>Passive</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result pisces">
+            <div class="about-image">
+                <img src="./images/Pisces.png" alt=" About Pisces">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Pisces) </h2>
+                <p> 
+                    Pisces, a water sign, is the last constellation of the zodiac. 
+                    It's symbolized by two fish swimming in opposite directions, representing the 
+                    constant division of Pisces' attention between fantasy and reality. As the final sign,
+                    Pisces has absorbed every lesson — the joys and the pain, the hopes and 
+                    the fears — learned by all of the other signs.
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Mystical</li>
+                            <li>Intuitive</li>
+                            <li>Creative</li>
+                            <li>Romantic</li>
+                            <li>Compassionate</li>
+                            <li>Sensitive</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Submissive</li>
+                            <li>Dependent</li>
+                            <li>Unrealistic</li>
+                            <li>Self-pitying</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result sagittarius">
+            <div class="about-image">
+                <img src="./images/Sagittarius.png" alt=" About Sagittarius">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Sagittarius) </h2>
+                <p> 
+                    Represented by the archer, Sagittarians are always on a quest for knowledge. 
+                    The last fire sign of the zodiac, Sagittarius launches its many pursuits like blazing arrows, 
+                    chasing after geographical, intellectual, and spiritual adventures.  
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                           <li>Ambitious</li>
+                           <li>Lucky</li>
+                           <li>Moral</li>
+                           <li>Optimistic</li>
+                           <li>Enthusiastic</li>
+                           <li>Open-minded</li>
+                           <li>Versatile</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Blindly Optimistic</li>
+                            <li>Gluttonous</li>
+                            <li>Restless</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result scorpio">
+            <div class="about-image">
+                <img src="./images/Scorpio.png" alt=" About Scorpio">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Scorpio) </h2>
+                <p> 
+                    Scorpio is one of the most misunderstood signs of the zodiac. 
+                    Because of its incredible passion and power, Scorpio is often mistaken for a fire sign. 
+                    In fact, Scorpio is a water sign that derives its strength from the psychic, emotional realm.
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Passionate</li>
+                            <li>Driven</li>
+                            <li>Emotional</li>
+                            <li>Determined</li>
+                            <li>Sacrificing</li>
+                            <li>Perceptive</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Jealous</li>
+                            <li>Paranoid </li>
+                            <li>Clingy</li>
+                            <li>Destructive</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result taurus">
+            <div class="about-image">
+                <img src="./images/Taurus.png" alt=" About Taurus">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Taurus) </h2>
+                <p> 
+                    Taurus is an earth sign represented by the bull. Like their celestial spirit animal, 
+                    Taureans enjoy relaxing in serene, 
+                    bucolic environments surrounded by soft sounds, soothing aromas, and succulent flavors. 
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                           <li>Steady</li>
+                           <li>Driven</li>
+                           <li>Tenacious</li>
+                           <li>Enduring</li>
+                           <li>Persistent</li>
+                           <li>Patient</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Materialistic</li>
+                            <li>Resistant to Change</li>
+                            <li>Indulgent</li>
+                            <li>Stubborn</li>
+                            <li>Possessive</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="result virgo">
+            <div class="about-image">
+                <img src="./images/Virgo.png" alt=" About Virgo">
+            </div>
+            <div class="about">
+                <div class="about-heading">
+                    <h2>About Yourself (Virgo) </h2>
+                <p> 
+                    Virgo is an earth sign historically represented by the goddess of wheat and agriculture,
+                     an association that speaks to Virgo’s deep-rooted presence in the material world. 
+                     Virgos are logical, practical, and systematic in their approach to life. 
+                    This earth sign is a perfectionist at heart and isn’t afraid to improve skills through 
+                    diligent and consistent practice. 
+                </p>
+                </div>
+                
+                <div class="about-lists">
+                    <div class="first-lists">
+                        <h3 class="str">Strengths</h3>
+                        <ul>
+                            <li>Modest</li>
+                            <li>Humble</li>
+                            <li>Orderly</li>
+                            <li>Altruistic</li>
+                            <li>Responsible</li>
+                        </ul>
+                    </div>  
+                   <div class="side-lists">
+                        <h3>Weaknesses</h3>
+                        <ul>
+                            <li>Obsessive </li>
+                            <li>Critical</li>
+                            <li>Perfectionist</li>
+                        </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+        <button class="close">CLOSE</button>
+    </div>
+                                                 <!-- END OF RESULTS PAGE -->
+
+                                                    <!-- ENDING NOTE -->
+    <div class="endnote">
+        <img src="./images/success-removebg-preview.png" alt="Thank You">
+        <h1>Thank You!</h1>
+        <h3>Kindly, refresh the page for more trials.</h3>
+        <p>Contact me: </p>
+        <div class=" end-icons">
+            <span><a href="https://github.com/arshadayvid"><i class="fab fa-github"></i></a></span>
+         <span><a href="https://www.linkedin.com/in/david-asaolu234/"><i class="fab fa-linkedin"></i></a></span>   
+        <span> <a href="https://facebook.com/asaolu.david.9"><i class="fab fa-facebook-f"></i></a></span>  
+        </h4>
+        
+        </div>
+    </div>
+                                            
+    <script src="./js/popup.js"></script>
+</body>
+</html>
